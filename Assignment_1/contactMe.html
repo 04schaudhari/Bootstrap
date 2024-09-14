@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        legend{
+
+color: cadetblue;
+
+
+}
+
+.contactMe::selection{
+    background-color: rgb(76, 245, 42);
+}
+
+label, button{
+
+color: rgb(1, 88, 88);
+
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea{
+
+width: 200px;
+
+height: 20px;
+
+text-transform: capitalize; 
+
+color: cadetblue;
+
+border-radius: 8px;
+
+border: 2px solid orange;
+
+}
+
+textarea{
+
+width: 200px;
+
+height: 50px;
+
+}
+
+button{
+
+border-radius: 8px; 
+
+width: 100px;
+
+border: 2px solid rgb(249, 188, 76);
+
+color: rgb(4, 69, 62);
+
+}
+#submit:hover{
+    background-color: aquamarine;
+}
+    </style>
+</head>
+<body>
+<fieldset>
+    <legend class="contactMe">Contact Me</legend>
+    <form action="">
+<table>
+    <tbody>
+        <tr>
+            <td><label for="">First Name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="">First Name</label></td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td><label for="">Email</label></td>
+            <td><input type="email"></td>
+
+        </tr>
+
+        <tr>
+            <td><label for="">Phone Number</label></td>
+            <td><input type="number"></td>
+
+        </tr>
+        <tr>
+            <td><label for="">Comment</label></td>
+            <td><textarea name="" id="" rows="7" cols="200"></textarea></td>
+        </tr>
+        <tr>
+            <td><button type="reset">RESET</button></td>
+            <td><button type="submit" id="submit">SUBMIT</button></td>
+        </tr>
+        
+
+    </tbody>
+</table>
+    </form>
+</fieldset>
+</body>
+</html>
